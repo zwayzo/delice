@@ -75,6 +75,17 @@ section {
     border-radius: 10px;
 }
 
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    width: 600px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+}
+
+
 .about h2,
 .menu h2,
 .contact h2 {
@@ -85,7 +96,7 @@ section {
 
 h2 {
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
