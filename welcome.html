@@ -49,11 +49,11 @@
 
         <h2>Menu</h2>
         <section id="menu" class="menu">
-        <div class="image-container">
-            <img src="static/menu1.png" alt="menu1"  class="center" style="display: block;">
-            <img src="static/menu2.jpeg" alt="menu2" class="center2" >
-        </div>
-        <button id="nextButton" onclick="nextImage()">Next</button>
+            <div class="image-container">
+                <img src="static/menu1.png" alt="menu1"  class="center" style="display: block;">
+                <img src="static/menu2.jpeg" alt="menu2" class="center2" >
+            </div>
+            <button id="nextButton" onclick="nextImage()">Next</button>
             <script>
                 var currentImageIndex = 0;
                 var images = document.querySelectorAll('.image-container img');
@@ -69,6 +69,10 @@
                 images[currentImageIndex].style.display = 'block'; // Show next image
                 }
             </script>
+        </section>
+        <section id="commande" class="commane">
+            <h1>Pour toute reservation, evenements, anniverasaire etc, veillez voire notre <button type="button" onclick="window.location.href = 'catalogue.html';">Catalogue!</button>
+            </h1>
         </section>
         <section id="localisation" class="localisation">
             <h2>Localisation</h2>

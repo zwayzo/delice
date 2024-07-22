@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+        .gallery img:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notre Catalogue</h1>
+
+    <div class="gallery">
+        <img src="https://via.placeholder.com/400x300?text=Image+1" alt="Image 1">
+        <img src="https://via.placeholder.com/400x300?text=Image+2" alt="Image 2">
+        <img src="https://via.placeholder.com/400x300?text=Image+3" alt="Image 3">
+        <img src="https://via.placeholder.com/400x300?text=Image+4" alt="Image 4">
+        <img src="https://via.placeholder.com/400x300?text=Image+5" alt="Image 5">
+        <img src="https://via.placeholder.com/400x300?text=Image+6" alt="Image 6">
+        <img src="https://via.placeholder.com/400x300?text=Image+1" alt="Image 1">
+        <img src="https://via.placeholder.com/400x300?text=Image+2" alt="Image 2">
+        <img src="https://via.placeholder.com/400x300?text=Image+3" alt="Image 3">
+        <img src="https://via.placeholder.com/400x300?text=Image+4" alt="Image 4">
+        <img src="https://via.placeholder.com/400x300?text=Image+5" alt="Image 5">
+        <img src="https://via.placeholder.com/400x300?text=Image+6" alt="Image 6">
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>
