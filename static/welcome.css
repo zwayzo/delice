@@ -74,7 +74,7 @@ section {
     max-width: 100%;
     border-radius: 10px;
 }
-.localisation,
+
 .about h2,
 .menu h2,
 .contact h2 {
@@ -82,6 +82,13 @@ section {
     font-size: 2em;
     margin-bottom: 20px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
 .menu-item {
     display: flex;
     justify-content: space-between;
@@ -160,6 +167,13 @@ img.logo{
     margin-left: auto;
     margin-right: auto;
     width: 500vw;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
 }
 
 .image-container {
