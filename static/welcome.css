@@ -53,7 +53,7 @@ nav ul li a {
 section {
     padding-left: 0;
 }
-
+.commande
 .container {
     max-width: 1200px; /* Example: sets a maximum width for the container */
     margin: 0 auto; /* Centers the container horizontally */
@@ -62,7 +62,7 @@ section {
 .about,
 .menu {
     
-    background: #956a49;
+    background: wheat;
     margin-bottom: 50px;
     border-radius: 10px;
     padding: 20px;
@@ -72,7 +72,8 @@ section {
 }
 
 .localisation {
-    margin: 0 auto;
+    margin: 0 auto; /* Centers the iframe itself */
+    display: block;
 }
 .about img,
 .menu img,
@@ -82,6 +83,7 @@ section {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 100%;
+    object-fit: cover;
 }
 
 .map-container {
@@ -108,11 +110,15 @@ h2 {
     font-size: 3em;
     margin-bottom: 20px;
     color: wheat;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.about h1,
+.about h1 {
+    color: rgb(82, 75, 61);
+}
+
 .commande h1 {
-    color: #f0f0f0;
+    color: wheat;
 }
 
 .menu-item {
@@ -164,6 +170,7 @@ img.logo{
 }
 
 .vid video {
+    margin-left: 15px;
     width: 360px; /* Largeur fixe des vidéos */
     height: 720px; /* Hauteur fixe des vidéos */
     margin-right: 500px; /* Espacement plus large entre les vidéos */
@@ -217,8 +224,5 @@ img.logo{
 }
 
 .localisation {
-    display: block;
-    margin-left: 300px;
-    margin-right: auto;
-    width: 45%;
+    margin-left: -5px;
 }
