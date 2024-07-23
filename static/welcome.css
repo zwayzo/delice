@@ -27,13 +27,16 @@ body {
 header {
     background-color: #e1743e;
     color: #fff;
-    padding: 20px 0;
+    padding: 1px 0;
     /* height: 40px; */
     text-align: center;
     margin-top: 0px;
 }
 
-vid
+
+
+
+
 header h2 {
     margin: 0;
     font-size: 2.5em;
@@ -181,8 +184,8 @@ footer {
 }
 
 img.logo{
-    height: 20%;
-    width: 20%;
+    height: 50%;
+    width: 50%;
     /* left: -360px; */
     position: relative;
     /* margin-top: -200px; */
@@ -254,4 +257,17 @@ img.logo{
 
 .localisation {
     margin-left: -5px;
+}
+
+
+footer h5 {
+/* Remove unnecessary margins */
+    margin-bottom: -100px;
+    margin: 0;
+}
+
+
+footer h6 {
+    margin-right: -300px;
+    margin-bottom: -100px;
 }
