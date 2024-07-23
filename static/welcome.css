@@ -60,6 +60,7 @@ section {
 .about,
 .menu,
 .contact {
+    
     background: #de5d1d;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -73,6 +74,8 @@ section {
 .contact img {
     max-width: 100%;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100%;
 }
 
 .map-container {
@@ -201,9 +204,9 @@ img.logo{
     cursor: pointer;
 }
 
-.p {
+.localisation {
     display: block;
-    margin-left: auto;
+    margin-left: 300px;
     margin-right: auto;
-    /* width: 50%; */
+    width: 45%;
 }

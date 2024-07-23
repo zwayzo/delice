@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    /* background-color: #2a4e4e; */
+    background-image: url('pexels-pixabay-235985.jpg');
+}
+h1 {
+    text-align: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100%;
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensures the image covers the specified dimensions */
+    display: block;
+    border-radius: 8px;
+}
+
+.gallery img:hover {
+    opacity: 0.8;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2.5em;
+    width: -600px;
+    /* width */
+    border-left: #000000;
+    /* margin-top: -220px; */
+    
+}
+
+header {
+    /* background-color: bisque; */
+    color: #fff;
+    padding: 20px 0;
+    /* height: 40px; */
+    text-align: center;
+    margin-top: 0px;
+}
+
+img.logo{
+    height: 20%;
+    width: 20%;
+    /* left: -360px; */
+    position: relative;
+    /* margin-top: -200px; */
+    
+}
+
+figure {
+    text-align: center; /* Center align content */
+    margin: 0;
+    max-width: 300px; /* Adjust max-width as needed */
+}
+
+figcaption {
+    font-family: Arial, sans-serif; /* Font family for description */
+    font-size: 14px; /* Font size */
+    font-style: italic; /* Italic style */
+    color: #f2f2f2; /* Text color */
+    margin-top: 5px; /* Space above the caption */
+}
+
+footer {
+    /* background-color: #e8dad3; */
+    color: #fff;
+    padding: 20px 0;
+    /* height: 40px; */
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+footer h6 {
+    font-family: serif;
+    margin-right: -880px;
+    margin-bottom: -90px;
+}
+
+footer h3 {
+    font-family: serif;
+    /* margin-right: -880px; */
+    margin-bottom: -9px;
+}
