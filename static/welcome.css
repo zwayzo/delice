@@ -1,3 +1,19 @@
+/* Styles for screens smaller than 768px (typical phone width) */
+@media (max-width: 767px) {
+    /* CSS rules for smaller screens here */
+    .vid-container {
+        height: auto; /* Reset height for smaller screens */
+    }
+    .vid video {
+        width: 100%; /* Make video width 100% on smaller screens */
+        height: auto; /* Allow video height to adjust proportionally */
+    }
+    .map-container iframe {
+        width: 100%; /* Make Google Maps iframe width 100% on smaller screens */
+        height: 300px; /* Adjust height as needed */
+    }
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -9,13 +25,15 @@ body {
 }
 
 header {
-    background-color: #ff5500;
+    background-color: #e1743e;
     color: #fff;
     padding: 20px 0;
     /* height: 40px; */
     text-align: center;
     margin-top: 0px;
 }
+
+vid
 header h2 {
     margin: 0;
     font-size: 2.5em;
@@ -76,14 +94,27 @@ section {
     display: block;
 }
 .about img,
-.menu img,
-.contact img {
+.menu img {
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-    max-width: 100%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover;
+    display: block;
+    height: auto; */
+}
+.contact {
+    /* Assuming you want the image to fill the entire width of its container */
+    width: 100%;
+    text-align: center; /* Center the image horizontally if needed */
+}
+
+.contact .myfooter {
+    box-shadow: 0 0 10px rgba(196, 35, 35, 0.1); /* Adjust shadow values as needed */
+    display: block;
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    max-width: 100%; /* Prevent the image from exceeding its natural size */
 }
 
 .map-container {
@@ -92,7 +123,7 @@ section {
 }
 
 .map-container iframe {
-    width: 600px; /* Adjust width as needed */
+    width: 6000px; /* Adjust width as needed */
     height: 600px; /* Adjust height as needed */
 }
 
@@ -118,7 +149,7 @@ h2 {
 }
 
 .commande h1 {
-    color: wheat;
+    color: black;
 }
 
 .menu-item {
@@ -160,21 +191,17 @@ img.logo{
 
 .vid-container {
     display: flex;
-    justify-content: space-between; /* Pour l'espace entre les vidéos */
-    max-width: 100%; /* Assure que la largeur ne dépasse pas le viewport */
-    overflow: hidden; /* Évite le débordement */
+    justify-content: center;
+    align-items: center; /* Optional: Centers vertically as well */
 }
 
-.vid {
-    display: flex; /* Utilise un affichage flex pour aligner les vidéos horizontalement */
-}
+/* .vid {
+    max-width: 100%;
+    max-height: 100%;
+} */
 
-.vid video {
-    margin-left: 15px;
-    width: 360px; /* Largeur fixe des vidéos */
-    height: 720px; /* Hauteur fixe des vidéos */
-    margin-right: 500px; /* Espacement plus large entre les vidéos */
-}
+
+
 
 .vid2 video {
     width: 360px; /* Largeur fixe des vidéos */
@@ -189,10 +216,12 @@ img.logo{
 .myfooter {
     display: block;
     margin: 0 auto; /* Centers the image horizontally */
-    width: 9000px;
-    height: auto; /* Keeps aspect ratio */
-    max-width: 100%;
+    width: 90px;
+    height: 100%; /* Keeps aspect ratio */
+    /* max-width: 100%; */
     display: block; /* Ensures no extra space below the image */
+    object-fit: cover;
+    background-color: #ff5500;
 }
 
 .center {
