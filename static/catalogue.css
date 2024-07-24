@@ -61,6 +61,8 @@ body {
     color: #f2f2f2;
     margin-top: 5px;
   }
+
+  
   
   footer {
     color: #fff;
@@ -70,14 +72,16 @@ body {
     margin-bottom: -100px;
   }
   
-  footer h3 {
+  footer h5 {
     /* Remove unnecessary margins */
-    margin-bottom: -100px;
+    /* margin-bottom: -1000px; */
     margin: 0;
   }
 
 
   footer h6 {
-    margin-right: -300px;
-    margin-bottom: -100px;
+    margin-right: -500px;
+    margin-bottom: -1000px;
+    right: -1000px;
+
   }
